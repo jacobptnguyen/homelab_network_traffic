@@ -5,7 +5,7 @@
 - Early packets in the list include UDP, TCP, TLSv1.2 Application Data, and one frame decoded as protocol 0x7373 with Ethernet II in the Info column.
 - TCP/TLS traffic includes ACK segments involving well-known ports such as 443; UDP traffic includes flows toward destination port 6667.
 
-**Screenshot:** screenshots/home.png
+**Screenshot:** [home.png](../screenshots/home.png)
 
 ---
 
@@ -16,7 +16,7 @@
 - All three listed packets use the MDNS protocol, are 82 bytes long, and show Standard query in the Info column (packets 1374, 1379, 1390 by packet number).
 - Source and destination address fields in the packet list are redacted.
 
-**Screenshot:** screenshots/traffic.png
+**Screenshot:** [ip_filter.png](../screenshots/ip_filter.png)
 
 ---
 
@@ -27,4 +27,4 @@
 - Entries alternate between Standard query and Standard query response in the Info column; packet numbers are not consecutive, so non-DNS frames remain in the file but are hidden.
 - Source and destination columns show IPv6 addresses, and timestamps group into separate bursts of DNS activity earlier and later in the capture timeline.
 
-**Screenshot:** screenshots/dns_filter.png
+**Screenshot:** [dns_filter.png](../screenshots/dns_filter.png)
