@@ -18,8 +18,8 @@ Captured and analyzed live Wi-Fi traffic in Wireshark, identifying protocols and
 
 ## Findings
 
-Structured write-ups with filters, observations, and screenshot links live in [`findings/findings.md`](findings/findings.md).
+Structured write-ups with filters, observations, and screenshot paths in [findings](findings/findings.md).
 
 ## Screenshots
 
-See the `screenshots` folder for visuals of each step.
+Visuals for each step are in the [screenshots](screenshots/) folder.
